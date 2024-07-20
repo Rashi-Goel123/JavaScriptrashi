@@ -1,20 +1,20 @@
 //7 data types:string,number,bean,nu,undefined,symbol,bigint//
-const score = 100
-const scorevalue= 100.3
-const isloggedIn =false
-const outsidetemp =null
-let useremail;
-const id = symbol('123')
-const accountid=symbol('123')
-const bignumber=3456543665687987986n
-const heroes =["rashi","divyansh","tejas"]
-let myobj ={
-name:"rashi",
-age:20,
-}
-const myfunction=function(){
-    console.log("hello rashi")
-}
+// const score = 100
+// const scorevalue= 100.3
+// const isloggedIn =false
+// const outsidetemp =null
+// let useremail;
+// const id = symbol('123')
+// const accountid=symbol('123')
+// const bignumber=3456543665687987986n
+// const heroes =["rashi","divyansh","tejas"]
+// let myobj ={
+// name:"rashi",
+// age:20,
+// }
+// const myfunction=function(){
+//     console.log("hello rashi")
+// }
 //primitive datatypes
 // number=>number
 //string=> string
@@ -34,3 +34,13 @@ const myfunction=function(){
 let myyoutubename = "rashi"
 let anothername = "myyoutubename"
 anothername="chaiaurcode"
+console.log(myyoutubename);
+console.log(anothername);
+let userone={
+    email:"goelrashi133@gmail.com",
+    upi:"user@ybl"
+}
+let usertwo =userone
+usertwo.email="rashi2gmail.com"
+console.log(userone.email);
+console.log(usertwo.email);
