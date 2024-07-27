@@ -21,3 +21,4 @@ let myTimeStamp =  Date.now()
  newDate.toLocaleString('default',{
     Weekday:"long"
  })  ///control space key use to get various methods
+ 
